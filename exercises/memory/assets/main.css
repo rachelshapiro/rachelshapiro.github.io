@@ -1,0 +1,38 @@
+body{
+	background-color: whitesmoke;
+	border: 3px dotted; black;
+	margin: 10px;
+}
+
+h1{
+	font-family: times ;
+	font-size: 50px;
+	color: purple;
+	margin: 10px;
+	font-weight: bold;
+}
+.question {
+	color: blueviolet;
+	margin: 10px;
+	font-family: fantasy;
+	font-size: 30px;
+}
+.answer {
+	color:  darkcyan;
+	margin: 10px;
+	font-family: serif;
+	font-size: 25px;
+}
+.list {
+	margin: 10px;
+	color: seagreen;
+	font-size: 20px;
+	font-family: !important;
+}
+.items {
+	color: darkblue;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: !important;
+}

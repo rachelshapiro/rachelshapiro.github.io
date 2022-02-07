@@ -1,0 +1,49 @@
+body {
+  background-color:  #FF7272;
+  font-family:  monospace;
+  padding: 50px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+}
+/*these are just some options for breakpoints, don't include all*/
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 80px;
+    font-weight: normal;
+    text-align: center;
+  }
+  h2{ 
+    font-size: 65px;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 60px;
+  }
+}
+/* Mobile screen break point*/
+@media (max-width 650px) {
+  body {
+    background-color: darkblue;
+    color: white;
+  }
+}

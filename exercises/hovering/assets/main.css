@@ -1,0 +1,55 @@
+.center {
+	font-weight: bold;
+	margin: auto;
+	width: 25%;
+	padding: 20px;
+	font-family: Rowdies;
+	color: darkcyan;
+}
+h2 {
+	margin: auto;
+	width: 10%;
+	color: darkturquoise;
+	font-family: Rowdies;
+}
+
+body{ 
+	color:  black;
+ }
+
+.content{ 
+	max-width: 1000px;
+	padding: 100px 30px;
+	margin: auto;
+	font-weight: 300; 
+}
+
+.walking {
+	font-style: italic;
+	transition: all 4s ease-in-out;
+}
+.walking:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wind {
+  background-color: lightblue;
+  color: white;
+}
+
+.wind {
+  cursor: url(../img/wind.png), auto;
+}
+
+.locust-walk img {
+  z-index: 0;
+  position: absolute;
+  max-width: 200px;
+  opacity: 0;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.locust-walk:hover img {
+  opacity: 1;
+

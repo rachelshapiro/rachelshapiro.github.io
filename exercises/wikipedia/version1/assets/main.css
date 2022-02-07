@@ -1,0 +1,14 @@
+body{
+	background-color: black;
+}
+h1{
+	color: teal;
+	display: flex;
+	justify-content: center;
+}
+h2{
+	color: turquoise;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}

@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	/*background-color: black;*/
 }
 h1{
 	color: teal;
@@ -11,4 +11,27 @@ h2{
 	display: flex;
 	justify-content: center;
 	text-decoration: none;
+	font-size: 14px;
+	word-spacing: inherit;
+}
+
+
+}
+.background{
+	/*color: white;
+	display: inline-block;*/
+}
+.text {
+	display: flex;
+	flex-direction:  column;
+	color: yellow;
+}
+.column-1, .column-2 {
+	width:  50%;
+	
+}
+
+.column-1 {
+  padding-right:  0;
+  padding-bottom:  50px;
 }

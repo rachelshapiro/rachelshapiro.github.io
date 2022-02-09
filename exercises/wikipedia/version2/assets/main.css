@@ -1,0 +1,121 @@
+body{
+	background: black;
+}
+.fill{
+	background: black;
+}
+
+h1{
+	color: aquamarine;
+	font-size: 150px;
+	display: flex;
+	border-bottom: none;
+	width: 50%;
+	background: black;
+
+}
+h2{
+	display: flex;
+	flex-direction: column;
+	width:  100%;
+	background: black;
+}
+.content, .text, .background, .img1 {
+    background: linear-gradient(224deg, #2efec8, #27d6a9, #03fc13, #28af7e);
+    background-size: 800% 800%;
+
+    -webkit-animation: aurora 35s ease infinite;
+    -moz-animation: aurora 35s ease infinite;
+    animation: aurora 35s ease infinite;
+}
+
+@-webkit-keyframes aurora {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-moz-keyframes aurora {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes aurora {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+img{
+	display: flex;
+	width: 50%;
+	float: left;
+	border: 10px;
+}
+.text{
+	display: none;
+	flex-direction: column;
+	float:  right;
+	width: 50%;
+}
+
+.img1:hover + .text{
+	display: block;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: darkcyan;
+}
+.text{
+	color: white;
+}
+
+.text2{
+	padding-top: 400px;
+}
+/*.hover{
+	float: left;
+  	width: 33%;
+  	padding: 5px;
+}
+.text2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+.aurora{
+	font-style: italic;
+	font-size: 30px;
+	color: darkcyan;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: green;
+    display: inline-block;
+}
+.hover{
+	display: inline-block;
+	float: left;
+	width: 33.33%;
+	height: 250px;
+	justify-content: center;
+}
+
+.hide{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.hover:hover .hide{
+    opacity: 1;
+}
+/*.hide {
+  display: none;
+}
+
+.hover:hover + .hide {
+  display: block;
+  color: black;
+}
+*/
+
+h3{
+	font-size: 24px;
+}

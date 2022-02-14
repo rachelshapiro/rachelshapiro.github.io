@@ -1,0 +1,292 @@
+body{
+	background-color: aliceblue;
+}
+h1{
+	display: flex;
+	justify-content: center;
+	font-family: 'Shizuru', cursive;
+	font-size: 40px;
+	margin: 0;
+	color: darkcyan;
+}
+a{
+	text-decoration: none;
+}
+
+h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Patrick Hand', cursive;
+	margin-top: 0;
+	margin-bottom: 4px;
+	color: steelblue;
+}
+
+P{
+	margin-top: 0px;
+}
+
+.process{
+  font-family: 'EB Garamond', serif;
+}
+.process{
+	position: relative;
+}
+
+	img {
+		max-width: 100%;
+		height: auto;
+		border-width: 20px;
+	}
+
+.center{
+	display: flex;
+	justify-content: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	margin: 0px;
+}
+
+div.step1{
+	/*background-color: cadetblue;*/
+	width: 400px;
+	position: absolute;
+	z-index: 3;
+	transition: all .2s ease-in-out;
+	/*height: 2000 px;*/
+}
+.step1:hover{
+	transform: scale(1.1);
+}
+
+.text1 {
+	background-color: cadetblue;
+	position: absolute;
+	top: 25px;
+	/*left: 200px;*/
+	width: 400px;
+	z-index: 1;
+	margin: 0;
+}
+
+.img1 {
+	/*background-color: yellow;*/
+	position: absolute;
+	top: 150px;
+	left: ;
+
+}
+
+
+div.step2{
+	/*background-color: teal;*/
+	position: absolute;
+	width: 720px;
+	height: 1000px;
+	z-index: 5;
+	
+}
+
+
+
+	/*img {
+		max-width: 100%;
+		width: ;
+		height: auto;
+		border: 20px;
+	}*/
+
+.text2 {
+	background-color: paleturquoise;
+	position: absolute;
+	top: 178px;
+	left: 420px;
+	width: 720 px;
+	height: 90px;
+	z-index: 3;
+}
+
+.img2 {
+	background-color: hotpink;
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 420px;
+	z-index: 2;
+	height: 80px;
+	/*transform: rotate(-10deg);*/
+
+}
+
+
+div.step3{
+	/*background-color: teal;*/
+	position: absolute;
+	width: 150px;
+	height: 1000px;
+	transition: all .2s ease-in-out;
+}
+.step3:hover{
+	transform: scale(1.1);
+}
+
+.text3 {
+	background-color: lightblue;
+	position: absolute;
+	top: 415px;
+	left: 40px;
+	width: 100 px;
+	z-index: 3;
+	/*transform: rotate(-8deg);*/
+}
+
+.img3 {
+	background-color: hotpink;
+	position: absolute;
+	width: 500px;
+	top: 405px;
+	left: 200px;
+	height: 140px;
+	z-index: 2;
+	/*transform: rotate(17deg);*/
+
+}
+
+
+div.step4{
+	/*background-color: lightpink;*/
+	position: absolute;
+	width: 760px;
+	height: 1000px;
+}
+
+.text4 {
+	background-color: lightsteelblue;
+	position: absolute;
+	top: 350px;
+	left: 450px;
+	width: 500 px;
+	height: 50px;
+	z-index: 3;
+}
+
+.img4 {
+	/*background-color: hotpink;*/
+	position: absolute;
+	width: 300px;
+	top: 283px;
+	left: 453px;
+	z-index: 2;
+}
+
+
+div.step5{
+	/*background-color: lightpink;*/
+	position: absolute;
+	width: 1180px;
+	height: 1000px;
+}
+
+.text5 {
+	background-color: darkcyan;
+	position: absolute;
+	top: 15px;
+	left: 1060px;
+	width: 400 px;
+	height: 250px;
+	z-index: 3;
+}
+
+.img5 {
+	/*background-color: hotpink;*/
+	position: absolute;
+	width: 300px;
+	top: 10px;
+	left: 750px;
+	z-index: 2;
+}
+
+
+div.step6{
+	/*background-color: lightpink;*/
+	position: absolute;
+	width: 1300px;
+	height: 1000px;
+}
+
+.text6 {
+	background-color: steelblue;
+	position: absolute;
+	top: 280px;
+	left: 800px;
+	width: 400 px;
+	height: 100px;
+	z-index: 3;
+}
+
+.img6 {
+	position: absolute;
+	width: 500px;
+	top: 395px;
+	left: 800px;
+	z-index: 3;
+}
+
+div.step7{
+	/*background-color: powderblue;*/
+	position: absolute;
+	width: 1200px;
+	height: 900px;
+}
+
+.text7 {
+	background-color: powderblue;
+	position: absolute;
+	top: 575px;
+	left: 1020px;
+	width: 510 px;
+	height: 300px;
+	z-index: 3;
+}
+
+.img7 {
+	/*background-color: powderblue;*/
+	margin: 5px;
+	position: absolute;
+	width: 220px;
+	height: 500px;
+	top: 560px;
+	left: 780px;
+	max-height: 50%;
+	z-index: 3;
+}
+
+div.step8{
+	/*background-color: lightpink;*/
+	position: absolute;
+	width: 330px;
+	height: 900px;
+}
+
+.text8 {
+	background-color: mediumturquoise;
+	position: absolute;
+	top: 740px;
+	left: 150px;
+	width: 310 px;
+	height: 200px;
+	z-index: 3;
+}
+
+.img8 {
+	/*background-color: blueviolet;*/
+	position: absolute;
+	width: 400px;
+	height: 600px;
+	top: 720px;
+	left: 350px;
+	max-height: 50%;
+	z-index: 3;
+}
+
+

@@ -1,0 +1,51 @@
+.container {
+	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	align-items: center;
+	background: linear-gradient(182deg, #0f377a, #ff4100, #ff6e00, #ff9b00, #fff500);
+	background-size: 400% 400%;
+	animation: gradient 35s ease infinite;
+	height: 700px;
+	width: 1000px;
+}
+
+	@keyframes gradient {
+		0% {background-position: 50% 0%;}
+		50% {background-position: 50% 100%;}
+		100% {background-position: 50% 0%;}
+	}
+#sunset {
+	height: 900px;
+	width: 1000px;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes size{
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.5);
+}
+}
+
+#sunset ellipse {
+	animation: fade 30s ease-in 5s infinite,size 30s ease-out infinite reverse;
+}

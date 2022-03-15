@@ -1,0 +1,144 @@
+body {
+ background-color: white;
+ background-image: url(https://cdn.madisonpaper.com/images/large/lined-paper.png);
+}
+
+/*.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}*/
+.wrapper{
+  margin-left: 100px;
+}
+.to-do {
+  font-size: 50px;
+  font-style: bold;
+  color: black;
+  margin-left: 10px;
+}
+h1{
+  font-size: 13px;
+  font-style: italic;
+  margin-left: 10px;  
+}
+h1:hover span{
+  display: none
+}
+h1:hover:before {
+  content: "click the boxes to check off items as you go"
+}
+.button1 {
+  border-color: black;
+  border-width: 5px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
+
+.text1 {
+  padding-left:  70px;
+}
+.hide{
+  opacity: 0;
+}
+
+.button2 {
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
+.text2 {
+  padding-left:  70px;
+}
+
+.button3 {
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
+.text3 {
+  padding-left:  70px;
+}
+
+.button4 {
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
+.text4 {
+  padding-left:  70px;
+}
+
+.button5 {
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
+.text5 {
+  padding-left:  70px;
+}
+
+.button6 {
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
+.text6 {
+  padding-left:  70px;
+}
+.button7 {
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
+.text7 {
+  padding-left:  70px;
+}
+.button8 {
+  border-color: black;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  width: 21px;
+  height: 21px;
+}
+.text8 {
+  padding-left:  70px;
+}
+/*.button:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: 8ms ease-out;
+}*/
+
+

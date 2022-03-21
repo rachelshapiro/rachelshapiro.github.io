@@ -21,11 +21,12 @@ body{
 
 .text1{
 	margin-right: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
 	opacity:0;
 }
 .text1:hover{
 	opacity:100;
-	fad
 }
 
 video {

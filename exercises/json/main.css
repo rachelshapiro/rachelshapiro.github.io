@@ -1,0 +1,74 @@
+
+body {
+  background-color:  navy;
+  margin: 0;
+  padding: 20px;
+  background-color:black;
+  background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  z-index: -1;
+}
+
+.bedroom {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sleep {
+  opacity: .5;
+  /*mix-blend-mode: color-burn;*/
+  color: whitesmoke;
+  font-size: 36px;
+  font-family: arial;
+  border-radius: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sleep1 {
+    background-color: navy;
+    z-index: 1;
+    margin-left: 200px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    animation: fadeinout 7.5s linear;
+}
+
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+.sleep2 {
+  background-color: navy;
+  z-index: 1;
+  animation: fadeinout2 9s linear;
+}
+
+
+@keyframes fadeinout2 {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+.sleep3 {
+  background-color: navy;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: 150px;
+  animation: fadeinout3 8s linear;
+}
+
+
+@keyframes fadeinout3 {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}

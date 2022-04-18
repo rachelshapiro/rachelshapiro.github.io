@@ -53,7 +53,7 @@ function displaySTime(day) {
   // adds a class to each new div
   newItem.classList.add("day");
   // places the show name to the div
-  dayDiv.innerHTML = day.date;
+  dayDiv.innerHTML = day.day;
   console.log(day);
 }
 // loops through the teen dramas and runs the displayTDramas function for each one

@@ -1,3 +1,4 @@
+
 // keep this viewable for all examples. These are JavaScript objects
 let screenTime = [
   {
@@ -45,12 +46,28 @@ let screenTime = [
 ];
 
 
-
 let container = document.querySelector(".screenTimeContainer");
-let container2 = document.querySelector(".container2");
-let container3 = document.querySelector(".container3");
-let container4 = document.querySelector(".container4");
+let container2 = document.querySelector(".topAppsUsed");
+let container3 = document.querySelector(".column1");
+let container4 = document.querySelector(".column2");
 let container5 = document.querySelector(".topAppsUsed"); 
+
+
+function displayDays(day) {
+  // creates a new div; appends that div to the container
+  let newDay = document.createElement("div");
+  container.appendChild(newDay);
+  // // adds a class to each new div
+  // i++;
+  newDay.classList.add("day");
+  // places the show name to the div
+  // newDay.classList.add("day" + [i]);
+  // let newDayDiv = container.appendChild(newItem);
+  newDay.innerHTML = day.day
+  console.log(day);
+}
+// loops through the teen dramas and runs the displayTDramas function for each one
+screenTime.forEach(displayDays);
 
 function displayTotals(total) {
   // creates a new div; appends that div to the container
@@ -104,14 +121,14 @@ let topAppsApr7 = [
   // One: Use the amount to indicate how big each circle is
 
 // First show all the flowers and create divs for each of them
-let container6 = document.querySelector(".topAppsUsed");
+// let container6 = document.querySelector(".topAppsUsed");
 // create a counter variable that will give us each flowers number in the array
 let i = 0;
 
 function displayTopAppsApr7(topAppsApr7) {
   // creates a new div; appends that div to the container
   let newItem = document.createElement("div");
-  let topAppsApr7Div = container.appendChild(newItem);
+  let topAppsApr7Div = container2.appendChild(newItem);
   // increase the counter variable by one
   i++;
   // adds a shared class to each new div
@@ -119,9 +136,9 @@ function displayTopAppsApr7(topAppsApr7) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr7" + [i]);
   // places the flower name and amount to the div
-  topAppsApr7Div.innerHTML = topAppsApr7.name + " – " + topAppsApr7.amount;
+  topAppsApr7Div.innerHTML = topAppsApr7.name + " – " + topAppsApr7.amount + "min";
   // sets height of flower to the amount. try changing height to width, or padding
-  topAppsApr7Div.style.height = .5*topAppsApr7.amount + "px";
+  topAppsApr7Div.style.height = topAppsApr7.amount + "px";
   console.log(topAppsApr7);
 }
 // loops through the flowers and runs the displayFlowers function for each one
@@ -137,7 +154,7 @@ let topAppsApr8 = [
 function displayTopAppsApr8(topAppsApr8) {
   // creates a new div; appends that div to the container
   let newItem = document.createElement("div");
-  let topAppsApr8Div = container.appendChild(newItem);
+  let topAppsApr8Div = container2.appendChild(newItem);
   // increase the counter variable by one
   i++;
   // adds a shared class to each new div
@@ -145,9 +162,9 @@ function displayTopAppsApr8(topAppsApr8) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr8" + [i]);
   // places the flower name and amount to the div
-  topAppsApr8Div.innerHTML = topAppsApr8.name + " – " + topAppsApr8.amount;
+  topAppsApr8Div.innerHTML = topAppsApr8.name + " – " + topAppsApr8.amount + "min";
   // sets height of flower to the amount. try changing height to width, or padding
-  topAppsApr8Div.style.height = .5*topAppsApr8.amount + "px";
+  topAppsApr8Div.style.height = topAppsApr8.amount + "px";
   console.log(topAppsApr8);
 }
 // loops through the flowers and runs the displayFlowers function for each one
@@ -162,7 +179,7 @@ let topAppsApr9 = [
 function displayTopAppsApr9(topAppsApr9) {
   // creates a new div; appends that div to the container
   let newItem = document.createElement("div");
-  let topAppsApr9Div = container.appendChild(newItem);
+  let topAppsApr9Div = container2.appendChild(newItem);
   // increase the counter variable by one
   i++;
   // adds a shared class to each new div
@@ -170,9 +187,9 @@ function displayTopAppsApr9(topAppsApr9) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr9" + [i]);
   // places the flower name and amount to the div
-  topAppsApr9Div.innerHTML = topAppsApr9.name + " – " + topAppsApr9.amount;
+  topAppsApr9Div.innerHTML = topAppsApr9.name + " – " + topAppsApr9.amount + "min";
   // sets height of flower to the amount. try changing height to width, or padding
-  topAppsApr9Div.style.height = .5*topAppsApr9.amount + "px";
+  topAppsApr9Div.style.height = topAppsApr9.amount + "px";
   console.log(topAppsApr9);
 }
 // loops through the flowers and runs the displayFlowers function for each one
@@ -187,7 +204,7 @@ let topAppsApr10 = [
 function displayTopAppsApr10(topAppsApr10) {
   // creates a new div; appends that div to the container
   let newItem = document.createElement("div");
-  let topAppsApr10Div = container.appendChild(newItem);
+  let topAppsApr10Div = container2.appendChild(newItem);
   // increase the counter variable by one
   i++;
   // adds a shared class to each new div
@@ -195,9 +212,9 @@ function displayTopAppsApr10(topAppsApr10) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr10" + [i]);
   // places the flower name and amount to the div
-  topAppsApr10Div.innerHTML = topAppsApr10.name + " – " + topAppsApr10.amount;
+  topAppsApr10Div.innerHTML = topAppsApr10.name + " – " + topAppsApr10.amount + "min";
   // sets height of flower to the amount. try changing height to width, or padding
-  topAppsApr10Div.style.height = .5*topAppsApr10.amount + "px";
+  topAppsApr10Div.style.height = topAppsApr10.amount + "px";
   console.log(topAppsApr10);
 }
 // loops through the flowers and runs the displayFlowers function for each one
@@ -212,7 +229,7 @@ let topAppsApr11 = [
 function displayTopAppsApr11(topAppsApr11) {
   // creates a new div; appends that div to the container
   let newItem = document.createElement("div");
-  let topAppsApr11Div = container.appendChild(newItem);
+  let topAppsApr11Div = container2.appendChild(newItem);
   // increase the counter variable by one
   i++;
   // adds a shared class to each new div
@@ -220,9 +237,9 @@ function displayTopAppsApr11(topAppsApr11) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr11" + [i]);
   // places the flower name and amount to the div
-  topAppsApr11Div.innerHTML = topAppsApr11.name + " – " + topAppsApr11.amount;
+  topAppsApr11Div.innerHTML = topAppsApr11.name + " – " + topAppsApr11.amount + "min";
   // sets height of flower to the amount. try changing height to width, or padding
-  topAppsApr11Div.style.height = .5*topAppsApr11.amount + "px";
+  topAppsApr11Div.style.height = topAppsApr11.amount + "px";
   console.log(topAppsApr11);
 }
 // loops through the flowers and runs the displayFlowers function for each one
@@ -238,7 +255,7 @@ let topAppsApr12 = [
 function displayTopAppsApr12(topAppsApr12) {
   // creates a new div; appends that div to the container
   let newItem = document.createElement("div");
-  let topAppsApr12Div = container.appendChild(newItem);
+  let topAppsApr12Div = container2.appendChild(newItem);
   // increase the counter variable by one
   i++;
   // adds a shared class to each new div
@@ -246,10 +263,50 @@ function displayTopAppsApr12(topAppsApr12) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr12" + [i]);
   // places the flower name and amount to the div
-  topAppsApr12Div.innerHTML = topAppsApr12.name + " – " + topAppsApr12.amount;
+  topAppsApr12Div.innerHTML = topAppsApr12.name + " – " + topAppsApr12.amount + "min";
   // sets height of flower to the amount. try changing height to width, or padding
-  topAppsApr12Div.style.height = .5*topAppsApr12.amount + "px";
+  topAppsApr12Div.style.height = topAppsApr12.amount + "px";
   console.log(topAppsApr12);
 }
 // loops through the flowers and runs the displayFlowers function for each one
 topAppsApr12.forEach(displayTopAppsApr12);
+
+
+
+
+
+// let container = document.querySelector(".screenTimeContainer");
+
+// function displayDays(day) {
+//   // creates a new div; appends that div to the container
+//   let newItem = document.createElement("div");
+//   let dayDiv = container.appendChild(newItem);
+
+
+//   // adds a class to each new div
+//   newItem.classList.add("day");
+//   // places the show name to the div
+//   dayDiv.innerHTML = day.name;
+
+
+//   // Same process as above to add the show year, needs to go here so that it doesnt get overridden
+//   let newNotificationsItem = document.createElement("div");
+//   let notificationsDiv = dayDiv.appendChild(newNotificationsItem);
+
+//   // create a function that will replace the HTML of the show div with the episode title
+//   function displayEpTitle() {
+//     dayDiv.innerHTML = day.notifications;
+//   }
+//   // here Im adding back the show name. I could add the year back, too, but I chose not to
+//   function revertShow() {
+//     showDiv.innerHTML = show.name;
+//   }
+
+//   // add an eventlistener for both the mouseover and mouseleave events
+//   showDiv.addEventListener("mouseover", displayEpTitle);
+//   showDiv.addEventListener("mouseleave", revertShow);
+// }
+
+// // loops through the teen dramas and runs the displayTDramas function for each one
+// teenDramas.forEach(displayTDramas);
+

@@ -1,0 +1,191 @@
+
+body {
+  /*background-color: blue;*/
+  background-color: black;
+  margin: 0;
+
+}
+
+.screenTimeContainer {
+  display: flex;
+  /*grid-template-rows: 100px 100px 100px 200px 200px;
+  grid-template-columns: 200 200 200 200 200 200;*/
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-count: 6;
+  width:  1400px;
+  justify-content: left;
+
+  }
+
+.item {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+
+/*.containerTwo {
+  background-color: green;
+
+}
+
+.containerThree {
+  background-color: red;
+}
+
+.containerFour {
+  background-color: pink;
+}*/
+
+
+.year {
+  color: grey;
+}
+
+.screenTime:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.total {
+  background-color: grey;
+  height: 20px;
+  margin-right: 50px;
+  column-count: 6;
+  object-position: absolute;
+}
+.pickup {
+  background-color: blue;
+  height: 20px;
+  margin-right: 50px;
+   object-position: absolute;
+   margin-top: 100px;
+   justify-content: right;
+}
+
+
+.notifications {
+  background-color: red;
+  height: 20px;
+  margin-right: 50px;
+   object-position: absolute;
+   margin-top: 100px;
+}
+
+
+
+.garden {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/*.flower {
+  opacity: .5;
+  mix-blend-mode: color-burn;
+  color: #5F1B7A;
+  font-size: 36px;
+  font-family: arial;
+  border-radius: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+.topAppsUsed{
+  column-count: 6;
+  flex-direction: column;
+}
+
+.topAppsApr71 {
+  background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
+}
+
+.topAppsApr72 {
+  background: linear-gradient(to bottom left, #00ff00 0%, #ffffff 100%);
+ margin-top: 35;
+}
+
+.topAppsApr73 {
+  background: linear-gradient(to bottom left, #3399ff 0%, #ffffff 100%);
+}
+
+.topAppsApr84 {
+  background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
+}
+
+.topAppsApr85 {
+  background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
+}
+
+.topAppsApr86 {
+  background: linear-gradient(to bottom left, #00ff00 0%, #ffffff 100%);
+}
+.topAppsApr97 {
+  background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
+}
+
+.topAppsApr98 {
+  background: linear-gradient(to bottom left, #00ff00 0%, #ffffff 100%);
+}
+
+.topAppsApr99 {
+  background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
+}
+
+.topAppsApr1010 {
+  background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
+}
+
+.topAppsApr1011 {
+    background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
+}
+
+.topAppsApr1012 {
+  background: linear-gradient(to bottom left, #00ff00 0%, #ffffff 100%);
+}
+
+.topAppsApr1113 {
+  background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
+}
+
+.topAppsApr1114 {
+  background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
+}
+
+.topAppsApr1115 {
+  background: linear-gradient(to bottom left, #00ff00 0%, #ffffff 100%);
+}
+
+.topAppsApr1216 {
+  background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
+}
+
+.topAppsApr1217 {
+    background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
+}
+
+.topAppsApr1218 {
+  background: linear-gradient(to bottom left, #00ff00 0%, #ffffff 100%);
+}
+/*.year-button {
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+  max-width: 200px;
+  text-align: center;
+  font-family: arial;
+  font-size: 20px;
+  position: fixed;
+  top: -20px;
+  right: 50px;
+  padding: 50px;
+  transition: background-color 400ms ease;
+}
+
+.year-button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.sorted {
+  background-color: red;
+}

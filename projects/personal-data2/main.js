@@ -48,7 +48,7 @@ let screenTime = [
 
 let container = document.querySelector(".screenTimeContainer");
 let container2 = document.querySelector(".topAppsUsed");
-let container3 = document.querySelector(".column1");
+let dateContainer = document.querySelector(".dateContainer");
 let container4 = document.querySelector(".column2");
 let container5 = document.querySelector(".topAppsUsed"); 
 
@@ -76,7 +76,7 @@ function displayTotals(total) {
   // adds a class to each new div
   newTotal.classList.add("total");
   // places the show name to the div
-  newTotal.style.width = .5*total.total + "px";
+  newTotal.style.width = 2.5*total.total + "px";
   newTotal.style.columnCount = "6"
   console.log(total);
 }
@@ -90,8 +90,8 @@ function displayPickups(pickup) {
   // adds a class to each new div
   newPickUp.classList.add("pickup");
   // places the show name to the div
-  newPickUp.style.width = .5*pickup.pickups + "px";
-  newPickUp.style.columnCount = "6"
+  newPickUp.style.width = 2.5*pickup.pickups + "px";
+  // newPickUp.style.columnCount = "6"
   console.log(pickup);
 }
 // loops through the teen dramas and runs the displayTDramas function for each one
@@ -104,8 +104,8 @@ function displayNotifications(notifications) {
   // adds a class to each new div
   newNotifications.classList.add("notifications");
   // places the show name to the div
-  newNotifications.style.width = .5*notifications.notifications + "px";
-   newNotifications.style.columnCount = "6"
+  newNotifications.style.width = 2.5*notifications.notifications + "px";
+   // newNotifications.style.columnCount = "6"
   console.log(notifications);
 }
 // loops through the teen dramas and runs the displayTDramas function for each one

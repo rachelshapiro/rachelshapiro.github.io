@@ -10,7 +10,7 @@ body {
   display: flex;
   /*grid-template-rows: 100px 100px 100px 200px 200px;
   grid-template-columns: 200 200 200 200 200 200;*/
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width:  1400px;
   justify-content: center;
@@ -97,10 +97,6 @@ body {
 }*/
 .topAppsUsed{
   flex-direction: column;
-  column-count: 6;
-  height: 250px;
-  column-fill: auto;
-  column
 }
 
 .topAppsApr71 {

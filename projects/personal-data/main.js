@@ -53,6 +53,7 @@ let container4 = document.querySelector(".column2");
 let container5 = document.querySelector(".topAppsUsed"); 
 
 
+
 function displayDays(day) {
   // creates a new div; appends that div to the container
   let newDay = document.createElement("div");
@@ -61,7 +62,7 @@ function displayDays(day) {
   newDay.classList.add("day");
   // places the show name to the div
   // let newDayDiv = container.appendChild(newItem);
-  newDay.innerHTML = day.day
+  newDay.innerHTML = day.day 
   console.log(day);
 }
 // loops through the teen dramas and runs the displayTDramas function for each one
@@ -74,7 +75,7 @@ function displayTotals(total) {
   // adds a class to each new div
   newTotal.classList.add("total");
   // places the show name to the div
-  newTotal.style.width = .5*total.total + "px";
+  newTotal.style.height = total.total + "px" + ;
   newTotal.style.columnCount = "6"
   console.log(total);
 }

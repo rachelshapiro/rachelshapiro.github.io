@@ -69,6 +69,22 @@ function displayDays(day) {
 // loops through the teen dramas and runs the displayTDramas function for each one
 screenTime.forEach(displayDays);
 
+let button = document.querySelector(".day-button");
+function sortScreenTime() {
+  screenTime.sort(function(a, b) {
+    console.log(a, b);
+    return a.year - b.year;
+  });
+
+  console.log(screenTime);
+  // re-insert teenDramas in new order
+  container.innerHTML = '';
+  screenTime.forEach(displayDays);
+}
+
+button.addEventListener("click", sortScreenTime);
+
+
 function displayTotals(total) {
   // creates a new div; appends that div to the container
   let newTotal = document.createElement("div");

@@ -218,7 +218,7 @@ body {
   /*width: 73.5px;*/
    column-span: 1;
 }
-/*.year-button {
+.day-button {
   background-color: blue;
   color: white;
   border-radius: 50px;
@@ -233,7 +233,7 @@ body {
   transition: background-color 400ms ease;
 }
 
-.year-button:hover {
+.day-button:hover {
   background-color: black;
   cursor: pointer;
 }

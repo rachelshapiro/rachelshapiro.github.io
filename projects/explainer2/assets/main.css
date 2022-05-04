@@ -1,13 +1,17 @@
 body{
 	background-color: aliceblue;
+	scroll:  overflow-x;
+
 }
 h1{
 	display: flex;
-	justify-content: center;
-	font-family: 'Shizuru', cursive;
-	font-size: 40px;
+	/*justify-content: center;*/
+	font-family: 'Caveat', cursive;
+	font-size: 50px;
 	margin: 0;
 	color: darkcyan;
+
+
 }
 a{
 	text-decoration: none;
@@ -15,11 +19,21 @@ a{
 
 h2{
 	display: flex;
-	justify-content: center;
-	font-family: 'Patrick Hand', cursive;
+	/*justify-content: center;*/
+	font-family: 'EB Garamond', serif;
 	margin-top: 0;
 	margin-bottom: 4px;
 	color: steelblue;
+	width: max-content;
+}
+
+.title{
+	position: sticky;
+	left: 0px;
+	top: 0;
+	width: max-content;
+
+
 }
 
 P{
@@ -43,18 +57,19 @@ P{
 
 .center{
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 20px;
 	margin: 0px;
 }
 
 div.step1{
-	/*background-color: cadetblue;*/
-	width: 400px;
+	background-color: cadetblue;
+	width: 1000px;
 	position: absolute;
 	z-index: 3;
 	transition: all .2s ease-in-out;
+	justify-content: center;
 	/*height: 2000 px;*/
 }
 .step1:hover{
@@ -65,8 +80,8 @@ div.step1{
 	background-color: cadetblue;
 	position: absolute;
 	top: 25px;
-	/*left: 200px;*/
-	width: 400px;
+	width: 1000px;
+	justify-content: center;
 	z-index: 1;
 	margin: 0;
 }
@@ -74,7 +89,7 @@ div.step1{
 .img1 {
 	/*background-color: yellow;*/
 	position: absolute;
-	top: 150px;
+	top: 100px;
 	left: ;
 
 }
@@ -83,12 +98,12 @@ div.step1{
 div.step2{
 	/*background-color: teal;*/
 	position: absolute;
-	width: 720px;
+	width: 2000px;
 	height: 1000px;
 	z-index: 5;
+	transition: all .2s ease-in-out;
 	
 }
-
 
 
 	/*img {
@@ -101,19 +116,24 @@ div.step2{
 .text2 {
 	background-color: paleturquoise;
 	position: absolute;
-	top: 178px;
-	left: 420px;
-	width: 720 px;
+	justify-content: center;
+	top: 25px;
+	left: 1200px;
+	width: 1450 px;
 	height: 90px;
 	z-index: 3;
+
 }
+/*.step2:hover{
+	transform: scale(1.1);
+}*/
 
 .img2 {
 	background-color: hotpink;
 	position: absolute;
-	width: 300px;
-	top: 0px;
-	left: 420px;
+	width: 1000px;
+	top: 150px;
+	left: 1100px;
 	z-index: 2;
 	height: 80px;
 	/*transform: rotate(-10deg);*/
@@ -124,19 +144,19 @@ div.step2{
 div.step3{
 	/*background-color: teal;*/
 	position: absolute;
-	width: 150px;
+	width: 3750px;
 	height: 1000px;
 	transition: all .2s ease-in-out;
 }
-.step3:hover{
+/*.step3:hover{
 	transform: scale(1.1);
-}
+}*/
 
 .text3 {
 	background-color: lightblue;
 	position: absolute;
-	top: 415px;
-	left: 40px;
+	top: 25px;
+	left: 2300px;
 	width: 100 px;
 	z-index: 3;
 	/*transform: rotate(-8deg);*/
@@ -145,10 +165,10 @@ div.step3{
 .img3 {
 	background-color: hotpink;
 	position: absolute;
-	width: 500px;
-	top: 405px;
-	left: 200px;
-	height: 140px;
+	width: 1000px;
+	top: 150px;
+	left: 2200px;
+	height: 300px;
 	z-index: 2;
 	/*transform: rotate(17deg);*/
 
@@ -158,15 +178,15 @@ div.step3{
 div.step4{
 	/*background-color: lightpink;*/
 	position: absolute;
-	width: 760px;
+	width: 4900px;
 	height: 1000px;
 }
 
 .text4 {
 	background-color: lightsteelblue;
 	position: absolute;
-	top: 350px;
-	left: 450px;
+	top: 25px;
+	left: 3360px;
 	width: 500 px;
 	height: 50px;
 	z-index: 3;
@@ -176,8 +196,8 @@ div.step4{
 	/*background-color: hotpink;*/
 	position: absolute;
 	width: 300px;
-	top: 283px;
-	left: 453px;
+	top: 100px;
+	left: 3355px;
 	z-index: 2;
 }
 
@@ -185,26 +205,26 @@ div.step4{
 div.step5{
 	/*background-color: lightpink;*/
 	position: absolute;
-	width: 1180px;
+	width: 5800px;
 	height: 1000px;
 }
 
 .text5 {
 	background-color: darkcyan;
 	position: absolute;
-	top: 15px;
-	left: 1060px;
+	top: 25px;
+	left: 3800px;
 	width: 400 px;
-	height: 250px;
+	height: 70px;
 	z-index: 3;
 }
 
 .img5 {
 	/*background-color: hotpink;*/
 	position: absolute;
-	width: 300px;
-	top: 10px;
-	left: 750px;
+	width: 700px;
+	top: 150px;
+	left: 3800px;
 	z-index: 2;
 }
 
@@ -212,15 +232,15 @@ div.step5{
 div.step6{
 	/*background-color: lightpink;*/
 	position: absolute;
-	width: 1300px;
+	width: 5800px;
 	height: 1000px;
 }
 
 .text6 {
 	background-color: steelblue;
 	position: absolute;
-	top: 280px;
-	left: 800px;
+	top: 25px;
+	left: 4680px;
 	width: 400 px;
 	height: 100px;
 	z-index: 3;
@@ -228,26 +248,26 @@ div.step6{
 
 .img6 {
 	position: absolute;
-	width: 500px;
-	top: 395px;
-	left: 800px;
+	width: 950px;
+	top: 150px;
+	left: 4685px;
 	z-index: 3;
 }
 
 div.step7{
 	/*background-color: powderblue;*/
 	position: absolute;
-	width: 1200px;
+	width: 6100px;
 	height: 900px;
 }
 
 .text7 {
 	background-color: powderblue;
 	position: absolute;
-	top: 575px;
-	left: 1020px;
+	top: 25px;
+	left: 5780px;
 	width: 510 px;
-	height: 300px;
+	height: 100px;
 	z-index: 3;
 }
 
@@ -257,8 +277,8 @@ div.step7{
 	position: absolute;
 	width: 220px;
 	height: 500px;
-	top: 560px;
-	left: 780px;
+	top: 150px;
+	left: 5810px;
 	max-height: 50%;
 	z-index: 3;
 }
@@ -266,27 +286,27 @@ div.step7{
 div.step8{
 	/*background-color: lightpink;*/
 	position: absolute;
-	width: 330px;
+	width: 7200px;
 	height: 900px;
 }
 
 .text8 {
 	background-color: mediumturquoise;
 	position: absolute;
-	top: 740px;
-	left: 150px;
+	top: 25px;
+	left: 6250px;
 	width: 310 px;
-	height: 200px;
+	height: 100px;
 	z-index: 3;
 }
 
 .img8 {
 	/*background-color: blueviolet;*/
 	position: absolute;
-	width: 400px;
+	width: 1000px;
 	height: 600px;
-	top: 720px;
-	left: 350px;
+	top: 150px;
+	left: 6200px;
 	max-height: 50%;
 	z-index: 3;
 }

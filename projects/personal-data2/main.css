@@ -15,7 +15,11 @@ body {
   justify-content: center;
 
   }
-
+.dates{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
 .item {
   width: 50%;
   margin-bottom: 20px;
@@ -78,7 +82,9 @@ body {
       justify-content: center;
 }
 
+.topAppsApr7{
 
+}
 .notifications {
   background-color: #ff0000;
   height: 20px;
@@ -108,12 +114,14 @@ body {
 }*/
 .topAppsUsed{
   flex-direction: column;
+ color: white;
 }
 
 .topAppsApr71 {
   background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
  /*width: 204px;*/
  column-span: 1;
+color: black;
 }
 
 .topAppsApr72 {
@@ -121,24 +129,29 @@ body {
  margin-top: 35;
  /*width: 90px;*/
  column-span: 1;
+color: black;
 }
 
 .topAppsApr73 {
   background: linear-gradient(to bottom left, #3399ff 0%, #ffffff 100%);
  /*width: 52.5px;*/
  column-span: 1;
+color: black;
 }
 
 .topAppsApr84 {
   background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
  /*width: 142.5px;*/
   column-span: 1;
+color: black;
+margin-top: 50px;
 }
 
 .topAppsApr85 {
   background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
  /*width: 121.5px;*/
   column-span: 1;
+color: black;
 }
 
 .topAppsApr86 {
@@ -146,34 +159,43 @@ body {
  /*width: 52.5px;*/
  font-size: 12px;
   column-span: 1;
+color: black;
 }
 .topAppsApr97 {
   background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
  /*width: 106.5px;*/
   column-span: 1;
+color: black;
+margin-top: 50px;
 }
 
 .topAppsApr98 {
   background: linear-gradient(to bottom left, #00ff00 0%, #ffffff 100%);
  /*width: 103.5px;*/
   column-span: 1;
+color: black;
 }
 
 .topAppsApr99 {
   background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
  /*width: 63px;*/
   column-span: 1;
+color: black;
 }
 
 .topAppsApr1010 {
   background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
  /*width: 153px;*/
   column-span: 1;
+color: black;
+margin-top: 50px;
+
 }
 .topAppsApr1011 {
     background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
  /*width: 144px;*/
   column-span: 1;
+color: black;
 }
 
 .topAppsApr1012 {
@@ -181,42 +203,51 @@ body {
  /*width: 55.5px;*/
  font-size: 12px;
   column-span: 1;
+color: black;
 }
 
 .topAppsApr1113 {
   background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
  /*width: 91.5px;*/
   column-span: 1;
+color: black;
+margin-top: 50px;
 }
 
 .topAppsApr1114 {
   background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
  /*width: 87px;*/
   column-span: 1;
+color: black;
 }
 
 .topAppsApr1115 {
   background: linear-gradient(to bottom left, #00ff00 0%, #ffffff 100%);
  /*width: 61.5px;*/
   column-span: 1;
+color: black;
 }
 
 .topAppsApr1216 {
   background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
  /*width: 202.5px;*/
   column-span: 1;
+color: black;
+margin-top: 50px;
 }
 
 .topAppsApr1217 {
     background: linear-gradient(to right, #9900cc 0%, #ff3300 100%);
  /*width: 81px;*/
   column-span: 1;
+color: black;
 }
 
 .topAppsApr1218 {
   background: linear-gradient(to bottom left, #00ff00 0%, #ffffff 100%);
   /*width: 73.5px;*/
    column-span: 1;
+color: black;
 }
 .day-button {
   background-color: blue;

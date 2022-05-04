@@ -48,7 +48,7 @@ let screenTime = [
 
 let container = document.querySelector(".screenTimeContainer");
 let container2 = document.querySelector(".topAppsUsed");
-let dateContainer = document.querySelector(".dateContainer");
+let Container3 = document.querySelector(".topAppsApr7");
 let container4 = document.querySelector(".column2");
 let container5 = document.querySelector(".topAppsUsed"); 
 
@@ -63,27 +63,26 @@ function displayDays(day) {
   // places the show name to the div
   // newDay.classList.add("day" + [i]);
   // let newDayDiv = container.appendChild(newItem);
-  newDay.innerHTML = day.day
+  newDay.innerHTML = "April 7 - April 12"
   console.log(day);
 }
 // loops through the teen dramas and runs the displayTDramas function for each one
-screenTime.forEach(displayDays);
+// screenTime.forEach(displayDays);
 
-let button = document.querySelector(".day-button");
-function sortScreenTime() {
-  screenTime.sort(function(a, b) {
-    console.log(a, b);
-    return a.year - b.year;
-  });
+//let button = document.querySelector(".day-button");
+// function sortScreenTime() {
+//   screenTime.sort(function(a, b) {
+//     console.log(a, b);
+//     return a.year - b.year;
+//   });
 
-  console.log(screenTime);
-  // re-insert teenDramas in new order
-  container.innerHTML = '';
-  screenTime.forEach(displayDays);
-}
+//   //console.log(screenTime);
+//   // re-insert teenDramas in new order
+//  // container.innerHTML = '';
+// //  screenTime.forEach(displayDays);
+// }//
 
-button.addEventListener("click", sortScreenTime);
-
+// //button.addEventListener("click", sortScreenTime);//
 
 function displayTotals(total) {
   // creates a new div; appends that div to the container
@@ -94,6 +93,7 @@ function displayTotals(total) {
   // places the show name to the div
   newTotal.style.width = 2.5*total.total + "px";
   newTotal.style.columnCount = "6"
+  newTotal.innerHTML = "Screen-time" + " : " + total.total + "min";
   console.log(total);
 }
 // loops through the teen dramas and runs the displayTDramas function for each one
@@ -108,6 +108,8 @@ function displayPickups(pickup) {
   // places the show name to the div
   newPickUp.style.width = 2.5*pickup.pickups + "px";
   // newPickUp.style.columnCount = "6"
+   newPickUp.innerHTML = "Pickups" + " : " + pickup.pickups;
+
   console.log(pickup);
 }
 // loops through the teen dramas and runs the displayTDramas function for each one
@@ -122,6 +124,7 @@ function displayNotifications(notifications) {
   // places the show name to the div
   newNotifications.style.width = 2.5*notifications.notifications + "px";
    // newNotifications.style.columnCount = "6"
+  newNotifications.innerHTML = "Notifications" + " : " + notifications.notifications;
   console.log(notifications);
 }
 // loops through the teen dramas and runs the displayTDramas function for each one
@@ -152,7 +155,7 @@ function displayTopAppsApr7(topAppsApr7) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr7" + [i]);
   // places the flower name and amount to the div
-  topAppsApr7Div.innerHTML = topAppsApr7.name + " – " + topAppsApr7.amount + "min";
+  topAppsApr7Div.innerHTML = topAppsApr7.name + " – " + topAppsApr7.amount + " min";
   // sets height of flower to the amount. try changing height to width, or padding
   topAppsApr7Div.style.height = topAppsApr7.amount + "px";
   console.log(topAppsApr7);
@@ -178,7 +181,7 @@ function displayTopAppsApr8(topAppsApr8) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr8" + [i]);
   // places the flower name and amount to the div
-  topAppsApr8Div.innerHTML = topAppsApr8.name + " – " + topAppsApr8.amount + "min";
+  topAppsApr8Div.innerHTML = topAppsApr8.name + " – " + topAppsApr8.amount + " min";
   // sets height of flower to the amount. try changing height to width, or padding
   topAppsApr8Div.style.height = topAppsApr8.amount + "px";
   console.log(topAppsApr8);
@@ -203,7 +206,7 @@ function displayTopAppsApr9(topAppsApr9) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr9" + [i]);
   // places the flower name and amount to the div
-  topAppsApr9Div.innerHTML = topAppsApr9.name + " – " + topAppsApr9.amount + "min";
+  topAppsApr9Div.innerHTML = topAppsApr9.name + " – " + topAppsApr9.amount + " min";
   // sets height of flower to the amount. try changing height to width, or padding
   topAppsApr9Div.style.height = topAppsApr9.amount + "px";
   console.log(topAppsApr9);
@@ -228,7 +231,7 @@ function displayTopAppsApr10(topAppsApr10) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr10" + [i]);
   // places the flower name and amount to the div
-  topAppsApr10Div.innerHTML = topAppsApr10.name + " – " + topAppsApr10.amount + "min";
+  topAppsApr10Div.innerHTML = topAppsApr10.name + " – " + topAppsApr10.amount + " min";
   // sets height of flower to the amount. try changing height to width, or padding
   topAppsApr10Div.style.height = topAppsApr10.amount + "px";
   console.log(topAppsApr10);
@@ -253,7 +256,7 @@ function displayTopAppsApr11(topAppsApr11) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr11" + [i]);
   // places the flower name and amount to the div
-  topAppsApr11Div.innerHTML = topAppsApr11.name + " – " + topAppsApr11.amount + "min";
+  topAppsApr11Div.innerHTML = topAppsApr11.name + " – " + topAppsApr11.amount + " min";
   // sets height of flower to the amount. try changing height to width, or padding
   topAppsApr11Div.style.height = topAppsApr11.amount + "px";
   console.log(topAppsApr11);
@@ -279,7 +282,7 @@ function displayTopAppsApr12(topAppsApr12) {
   // adds a specific class to each new div
   newItem.classList.add("topAppsApr12" + [i]);
   // places the flower name and amount to the div
-  topAppsApr12Div.innerHTML = topAppsApr12.name + " – " + topAppsApr12.amount + "min";
+  topAppsApr12Div.innerHTML = topAppsApr12.name + " – " + topAppsApr12.amount + " min";
   // sets height of flower to the amount. try changing height to width, or padding
   topAppsApr12Div.style.height = topAppsApr12.amount + "px";
   console.log(topAppsApr12);

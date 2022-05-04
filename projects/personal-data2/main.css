@@ -6,6 +6,15 @@ body {
 
 }
 
+.title{
+  color: #9900cc;
+}
+.final-insights{
+  color: #9900cc;
+  font-size: 16px;
+  margin: 10px;
+  align-items: center;
+}
 .screenTimeContainer {
   display: flex;
   /*grid-template-rows: 100px 100px 100px 200px 200px;
@@ -115,6 +124,8 @@ body {
 .topAppsUsed{
   flex-direction: column;
  color: white;
+ font-size: 20px;
+  font-weight: bold;
 }
 
 .topAppsApr71 {
@@ -122,6 +133,8 @@ body {
  /*width: 204px;*/
  column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr72 {
@@ -130,6 +143,8 @@ color: black;
  /*width: 90px;*/
  column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr73 {
@@ -137,6 +152,8 @@ color: black;
  /*width: 52.5px;*/
  column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr84 {
@@ -145,6 +162,8 @@ color: black;
   column-span: 1;
 color: black;
 margin-top: 50px;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr85 {
@@ -152,6 +171,8 @@ margin-top: 50px;
  /*width: 121.5px;*/
   column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr86 {
@@ -160,6 +181,8 @@ color: black;
  font-size: 12px;
   column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 .topAppsApr97 {
   background: linear-gradient(to right, #ff0000 0%, #00ffff 101%);
@@ -167,6 +190,8 @@ color: black;
   column-span: 1;
 color: black;
 margin-top: 50px;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr98 {
@@ -174,6 +199,8 @@ margin-top: 50px;
  /*width: 103.5px;*/
   column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr99 {
@@ -181,6 +208,8 @@ color: black;
  /*width: 63px;*/
   column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr1010 {
@@ -189,6 +218,8 @@ color: black;
   column-span: 1;
 color: black;
 margin-top: 50px;
+font-size: 16px;
+  font-weight: normal;
 
 }
 .topAppsApr1011 {
@@ -196,6 +227,8 @@ margin-top: 50px;
  /*width: 144px;*/
   column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr1012 {
@@ -204,6 +237,8 @@ color: black;
  font-size: 12px;
   column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr1113 {
@@ -212,6 +247,8 @@ color: black;
   column-span: 1;
 color: black;
 margin-top: 50px;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr1114 {
@@ -219,6 +256,8 @@ margin-top: 50px;
  /*width: 87px;*/
   column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr1115 {
@@ -226,6 +265,8 @@ color: black;
  /*width: 61.5px;*/
   column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr1216 {
@@ -234,6 +275,8 @@ color: black;
   column-span: 1;
 color: black;
 margin-top: 50px;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr1217 {
@@ -241,6 +284,8 @@ margin-top: 50px;
  /*width: 81px;*/
   column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 
 .topAppsApr1218 {
@@ -248,6 +293,8 @@ color: black;
   /*width: 73.5px;*/
    column-span: 1;
 color: black;
+font-size: 16px;
+  font-weight: normal;
 }
 .day-button {
   background-color: blue;

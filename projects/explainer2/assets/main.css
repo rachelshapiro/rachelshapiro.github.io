@@ -28,6 +28,8 @@ h2{
 }
 
 .title{
+	margin: none;
+	background-color: rgba(191, 191, 191, 0.34);
 	position: sticky;
 	left: 0px;
 	top: 0;
